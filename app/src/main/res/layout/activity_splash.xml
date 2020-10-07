@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kk.kamranqadeer.salemanager.Splash"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/front_1">
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:src="@drawable/mainlogo" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="Byapar Hub"
+                    android:textColor="@color/White"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/header"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Retail Business Management System"
+        android:textColor="@color/text_colour"
+        android:textSize="17sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Shrijan Chochhe Shrestha"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF" />
+</LinearLayout>
